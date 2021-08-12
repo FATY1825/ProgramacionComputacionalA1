@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{55E728D7-5D65-4A55-8C27-B4C3D1E279A8}</ProjectGuid>
+    <ProjectGuid>{865B505C-B779-4C15-AA7D-C6CF6D707A92}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ClasePractica3007</RootNamespace>
-    <AssemblyName>ClasePractica3007</AssemblyName>
+    <RootNamespace>ClaseTeorica1208</RootNamespace>
+    <AssemblyName>ClaseTeorica1208</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>ClasePractica3007.Ejercicio1</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,9 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Condicional.cs" />
-    <Compile Include="Ejercicio1.cs" />
-    <Compile Include="Ejercicio2.cs" />
+    <Compile Include="Ejercicio1Clas1208.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
