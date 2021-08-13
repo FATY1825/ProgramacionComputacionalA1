@@ -58,6 +58,22 @@ namespace ClaseTeorica1208
             {
                 Console.WriteLine(item);
             }
-        }
+
+            Console.WriteLine("IMPRIME ELEMENTOS CON FOR - ARREGLO ORDENADO");
+            //Llamado a las clase array y al metodo sort
+            Array.Sort(numbers); //el metodo sort permite ordenar los valores dentro de un array
+                for (int j = 0; j < numbers.Length; j++)
+            {
+                Console.WriteLine("Posicion {0} : {1}", j, numbers[j]);
+
+            }
+
+            Console.WriteLine("IMPRIME ELEMENTOS CON FOREACH - ARREGLO INVERTIDO");
+            Array.Reverse(numbers); //reverse permite inventir los valores dentro del array
+            foreach (int item in numbers)
+            {
+                Console.WriteLine(item);
+            }
+
     }
 }
